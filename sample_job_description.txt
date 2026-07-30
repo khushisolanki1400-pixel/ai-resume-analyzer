@@ -1,0 +1,19 @@
+Software Engineer, AI Applications
+
+We are looking for a Software Engineer to join our AI Applications team.
+
+Requirements:
+- 2+ years of experience with Python
+- Experience building and deploying REST APIs (FastAPI or Flask)
+- Familiarity with machine learning / NLP concepts
+- Experience with LLM integration (OpenAI API, LangChain, or similar)
+- Frontend experience with React is a plus
+- Experience with Docker and cloud platforms (AWS/GCP/Azure)
+- Strong understanding of data structures and algorithms
+- Experience with git-based workflows and CI/CD
+- Excellent communication skills and ability to work in an agile team
+
+Nice to have:
+- Experience with vector databases and RAG pipelines
+- Experience with PostgreSQL or MongoDB
+- Prior experience shipping production ML/AI features
