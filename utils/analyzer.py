@@ -15,17 +15,8 @@ from collections import Counter
 
 import spacy
 
-# Load a small English model. Downloaded via requirements/setup step.
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:  # pragma: no cover - fallback if model isn't downloaded yet
-    import subprocess
-    import sys
-
-    subprocess.run(
-        [sys.executable, "-m", "spacy", "download", "en_core_web_sm"], check=True
-    )
-    nlp = spacy.load("en_core_web_sm")
+# The model is installed as a direct pip dependency (see requirements.txt)
+nlp = spacy.load("en_core_web_sm")
 
 
 # A reasonably broad taxonomy of tech/software/AI skills. Extend this list
